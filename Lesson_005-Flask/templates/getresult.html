@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Student Marks</title>
+</head>
+<body>
+    <h2>Enter Student Marks</h2>
+    <form action="/getresult" method="post">
+        <label for="science">Science:</label>
+        <input type="number" id="science" name="science" min="0" max="100" required><br><br>
+
+        <label for="math">C Math:</label>
+        <input type="number" id="math" name="math" min="0" max="100" required><br><br>
+
+        <label for="data_science">Data Science:</label>
+        <input type="number" id="data_science" name="data_science" min="0" max="100" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
